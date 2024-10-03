@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    text-align: center;
+}
+.container{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+.game{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    background-color: lightcyan;
+}
+#reset-btn{
+    padding: 10px;
+    background-color: rgb(16, 178, 232);
+    font-size: 15px;
+    height: 50px;
+}
+#color{
+    background-color: lightblue;
+}
